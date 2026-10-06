@@ -56,12 +56,14 @@ The config path can be overridden with `GITSWITCH_CONFIG`.
 ## Usage
 
 ```bash
-gitswitch personal
-gitswitch work
+gitswitch menu
+gitswitch ${name_from_config}
 
 gitswitch status
 gitswitch list
 gitswitch check
+
+gitswitch uninstall
 ```
 
 ## Testing
